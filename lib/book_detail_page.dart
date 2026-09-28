@@ -109,7 +109,7 @@ class BookDetailPage extends StatelessWidget {
                 ),
                 _buildStatItem(
                   Icons.calendar_today_rounded,
-                  book.year,
+                  book.year.toString(),
                   'Year',
                   const Color(0xFFF5EBE0),
                   const Color(0xFFA68A64),
